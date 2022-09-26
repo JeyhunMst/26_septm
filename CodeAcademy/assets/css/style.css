@@ -1,0 +1,714 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.header-bottom{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+.Logo{
+    margin-left: 30px;
+}
+.navbars{
+    position: absolute;
+    left: 34%;
+}
+.icon-search{
+    position: absolute;
+    left: 87%;
+}
+.headbt{
+    position:   absolute;
+    left: 90%;
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+.headbt:hover{
+    color: black;
+    background-color: yellow;
+    transform: scale(1.1);
+}
+.middle{
+    margin-left: 5px;
+}
+.icon-social{
+    opacity: 0;
+}
+.icon-phone{
+    opacity: 0;
+}
+.icon-menu{
+    opacity: 0;
+}
+.nav-item a{
+    position: relative;
+    transition: 0.5s;
+    
+}
+.nav-item a:hover{
+    
+    border-bottom: 3px solid yellow;
+    cursor: pointer;
+}
+
+
+
+#education{
+    margin-top: 130px;
+}
+#education .card img{
+    max-width: 80px;
+    max-height: 80px;
+}
+#education  .card-body{
+    margin-top: 40px;
+}
+#education .card
+{  
+    min-width: 300px;
+    max-height: 230px;
+    
+    transition: 0.5s;
+}
+#education .marketing:hover {
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.06);
+    z-index: 9998;
+}
+#education .programming:hover{
+    background-color: rgb(76, 76, 208);
+    color: white;
+    transform: scale(1.06);
+    z-index: 9998;
+}
+#education .design:hover{
+    background-color: rgb(255, 247, 0);
+    color: white;
+    transform: scale(1.06);
+    z-index: 9998;
+}
+#education .system:hover{
+    background-color: rgb(0, 180, 12);
+    color: white;
+    transform: scale(1.06);
+    z-index: 9998;
+}
+#education .title{
+    width: 100px;
+}
+#education .col-6 .container .row{
+    display: flex;
+    align-items: center;
+}
+#education .title{
+    position: relative;
+    margin-top: 100px;
+}
+#education .title::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-image: linear-gradient(to  right, rgb(255, 56, 56), rgb(50, 255, 50),#6565df);
+    position: absolute;
+    top: 90px;
+    left: 0%;
+
+}
+#education .title span{
+    
+    font-weight: lighter;
+}
+#education .paragraph{
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+
+
+
+#why-code {
+    margin-top: 100px;
+}
+#why-code .intro{
+    position: relative;
+    left: 12%;
+    
+}
+#why-code .title{
+    position: relative;
+    max-width: 300px;
+}
+#why-code .title::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-image: linear-gradient(to  right, rgb(255, 56, 56), rgb(50, 255, 50),#6565df);
+    position: absolute;
+    top: 160px;
+    left: 0%;
+}
+#why-code .paragraph{
+    margin-top: 60px;
+    max-width: 700px;
+}
+#why-code .title h2{
+    font-size: 50px;
+}
+#why-code .title span{
+    font-weight: lighter;
+}
+
+#why-code .col-6 .card{
+    border: 0px !important;
+    max-width: 600px;
+    max-height: 300px;
+    margin-bottom: 80px;
+}
+#why-code img{
+    max-width: 200px;
+    min-height: 200px;
+    margin-left: 50px;
+}
+#why-code .btn-primary{
+    border: 0px;
+    background-color: transparent;
+    color: black;
+}
+#why-code .cont{
+    margin-top: 100px;
+}
+
+
+
+
+
+ .background-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(/assets/images/main/stat/img-back.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#statistics .col-lg-3 .card{
+    background-color: transparent;
+    border: 0px;
+    margin-top: 40px;
+    color: white;
+    margin-left: 10px;
+}
+#statistics .col-lg-3 .card  h2{
+    font-size: 100px;
+}
+#statistics .col-lg-3 .card h4{
+    font-size: 35px;
+}
+#statistics .title h4{
+    position: relative;
+    left: 22%;
+    font-size: 24px;
+    color: white;
+
+}
+
+
+
+#comments{
+    margin-top: 50px;
+}
+#comments .col-6 img{
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 100%;
+    position: relative;
+    left: 75%;
+   
+}
+#comments .person .name h4{
+    margin-top: 30px;
+}
+#comments .person .role h5{
+    font-weight: lighter;
+    font-size: 18px;
+    
+}
+#comments .title{
+    position: relative;
+    left: 30%;
+}
+#comments .title span{
+    font-weight: lighter;
+}
+#comments .title h2{
+    font-size: 60px;
+}
+#comments .comment{
+    position: relative;
+    left: 25%;
+    max-width: 800px;
+}
+#comments .comment p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+
+#partners{
+    margin-top: 160px;
+}
+#partners .title{
+    position: relative;
+    left: 35%;
+}
+#partners .title span{
+    font-weight: lighter;
+}
+#partners .title h2{
+    font-size: 50px;
+}
+#partners .message{
+    margin-top: 30px;
+    position: relative;
+    left: 30%;
+    max-width: 500px;
+}
+#partners .message p{
+    position: relative;
+    font-size: 17px;
+    font-weight: lighter;
+}
+#partners .message p::after{
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-image: linear-gradient(to  right, rgb(255, 56, 56), rgb(50, 255, 50),#6565df);
+    position: absolute;
+    top: 140px;
+    left: 35%;
+}
+#partners img{
+    margin-top:100px ;
+    max-width: 110px;
+    max-height: 110px;
+}
+
+
+
+#our-students{
+    margin-top: 200px;
+}
+#our-students .title{
+    position: relative;
+    left: 35%;
+    margin-bottom: 40px;
+}
+#our-students .title h2{
+    position: relative;
+    font-size: 50px;
+}
+#our-students .title h2::after{
+    content: "";
+    width: 120px;
+    height: 5px;
+    background-color: yellow;
+    position: absolute;
+    top: 140px;
+    left: 5%;
+}
+#our-students .title  span{
+    font-weight: lighter;
+}
+#our-students img{
+    margin-top: 20px;
+    max-width: 140px;
+    max-height: 140px;
+    transition: 0.3s;
+}
+#our-students img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+#question{
+    background-color: rgb(233, 233, 233);
+    height: 400px;
+}
+.question{
+    margin-top: 250px;
+    position: sticky;
+}
+.question .title{
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+.question .title h2{
+    font-size: 57px;
+}
+.question .title span{
+    font-weight: lighter;
+}
+.question .message{
+    margin-top: 30px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 300px;
+}
+.question .name input{
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    min-height: 60px;
+    min-width: 180px;
+}
+.question .surname input{
+    position: absolute;
+    top: 30%;
+    left: 64%;
+    min-height: 60px;
+    min-width: 200px;
+}
+.question .num{
+    width: 10%;
+}
+.question .num input{
+    position: absolute;
+    left: 51%;
+    top: 55%;
+    min-height: 60px;
+    max-width: 80px;
+}
+.question .numb{
+    width: 90%;
+}
+.question .numb input{
+    position: absolute;
+    left: 57%;
+    top: 55%;
+    min-height: 60px;
+    min-width: 305px;
+}
+.question .ux{
+    width: 100%;
+}
+.question .ux input{
+    position: absolute;
+    top: 74%;
+    left: 51%;
+    margin-top: 20px;
+    min-height: 60px;
+    min-width: 400px;
+}
+.question button.btn{
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    left: 51%;
+    top: 110%;
+    min-height: 60px;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+
+
+
+#end{
+    margin-top: 100px;
+}
+#end li{
+    list-style-type: none;   
+}
+
+
+
+
+
+
+.footer-top{
+    background-color: rgb(224, 224, 224);
+    height: 70px;
+    margin-top: 100px;
+    text-align: center;
+}
+.footer-top span{
+    font-weight: bolder;
+}
+
+
+.footer-bottom{
+    margin-top: 30px;
+}
+.footer-bottom .logo img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.footer-bottom ul li{
+    margin-top: 20px;
+    
+    display: inline-block;
+    list-style: none;
+    transition: 0.7s;
+}
+.footer-bottom ul li:hover{
+    cursor: pointer;
+    transform: translate(0px,10px);
+}
+.footer-bottom ul li.change{
+    margin-left: 15px;
+}
+
+.footer-bottom ul img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 2000px){
+    .icon-search{
+        position: absolute;
+        left: 77%;
+    }
+    .btn-secondary{
+        position:   absolute;
+        left: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .navbars{
+        display: none;
+    }
+    .icon-search{
+        display: none;
+    }
+    .headbt{
+        display: none;
+    }
+    .icon-social{
+        opacity: 1;
+        position: absolute;
+        left: 70%;
+    }
+    .icon-phone{
+        opacity: 1;
+        position: absolute;
+        left: 77%;
+    }
+    .icon-menu{
+        opacity: 1;
+        position: absolute;
+        left: 82%;
+    }
+    .icon-social img ,.icon-phone img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    #education .col-6 .container-md .col-6{
+        width: 60%;
+    }
+    #education .card
+    {  
+        min-width: 350px;
+        max-height: 200px;
+        padding: 20px;
+        transition: 0.5s;
+    }
+    #why-code .col-6{
+        width:100%;
+    }
+    #why-code .col-6 .container .col-6{
+        width: 50%;
+    }
+    #statistics .title  h4{
+        left: 0%;
+        margin-top: 20px;
+        max-width: 600px;
+    }
+    #statistics .col-lg-3 .card{
+        margin-left: 30px;
+    }
+    #statistics .col-lg-3 .card  h2{
+        font-size: 30px;
+    }
+    #statistics .col-lg-3 .card h4{
+        font-size: 20px;
+        max-width: 100px;
+    }
+
+
+
+
+
+
+
+    #comments .col-6 img{
+        
+        position: relative;
+        left: 60%;
+       
+    }
+    #comments .title{
+        position: relative;
+        left: 10%;
+    }
+    #comments .comment{
+        position: relative;
+        left: 8%;
+    }
+
+
+    #partners .title{
+        position: relative;
+        left: 20%;
+    }
+    #partners .message{
+        position: relative;
+        left: 10%;
+    }
+    #partners .col-2{
+        width: 33%;
+    }
+
+    #our-students .col-2{
+        width: 25%;
+    }
+    #our-students .title{
+        position: relative;
+        left: 20%;
+    }
+
+
+    .question .title{
+        position: relative;
+        left: 8%;
+    }
+    .question .message{
+        position: relative;
+        left: 8%;
+    }
+ }
+   
+    
+  @media only screen and (max-width: 768px){
+    .icon-social{
+
+        position: absolute;
+        left: 60%;
+    }
+    .icon-phone{
+        opacity: 1;
+        position: absolute;
+        left: 70%;
+    }
+    #education .col-6{
+        width: 100%;
+    }
+    #education .card
+    {  
+        min-width: 500px;
+        max-height: 200px;
+        padding: 20px;
+        transition: 0.5s;
+    }
+    #why-code .col-6 .image{
+        display: none;
+    }
+
+    #why-code .col-6 .container .col-6 {
+        width:100%;
+    }
+    
+    #statistics .col-lg-3{
+        
+        width: 60%;
+    }
+    #statistics .title h4{
+        position: relative;
+        left: 0%;
+        font-size: 15px;
+    }
+    #statistics .col-lg-3 .card  h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    #statistics .col-lg-3 .card h4{
+        text-align: center;
+        font-size: 25px;
+    }
+    #comments .col-6 img{
+        
+        position: relative;
+        left: 54%;
+       
+    }
+
+    #partners .col-2{
+        width: 100%;
+    }
+
+    #our-students .col-2{
+        width: 33%;
+    }
+    #our-students .title{
+        position: relative;
+        left: 20%;
+    }
+    #question{
+        height: 560px;   
+    }
+    .question .message{
+        position: relative;
+        left: 0%;
+    }
+    .question button.btn{
+        max-width: 200px;
+    } 
+    .question .ux input{
+        min-width: 200px;
+    }
+    .question .numb input{
+        position: absolute;
+        left: 65%;
+        min-width: 200px;
+    }
+    .question .name input{
+        width: 100px;
+    }
+    .question .surname input{
+        width: 100px;
+        position: absolute;
+        left: 70%;
+    }
+
+
+    .footer-bottom .col-4{
+        width: 100%;
+    }
+    .footer-bottom .passage{
+        display: none;
+    }
+    .footer-bottom .col-4{
+        position: relative;
+        left: 25%;
+    }
+  }
+  
+
